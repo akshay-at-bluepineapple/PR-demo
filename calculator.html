@@ -7,6 +7,11 @@
             }
             let clearscreen = () => {
                 document.getElementById("inputtext").value = "";
+            let enterInput = (val) => {
+                document.getElementById("inputtext").value += val;
+            }
+            let result = () => {
+                document.getElementById("inputtext").value = eval(document.getElementById("inputtext").value);
             }
         </script>
         <style>
