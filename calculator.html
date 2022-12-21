@@ -2,14 +2,6 @@
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script>
-            let backspace = () => {
-                document.getElementById("inputtext").value = document.getElementById("inputtext").value.slice(0,-1);
-            }
-            let clearscreen = () => {
-                document.getElementById("inputtext").value = "";
-            let enterInput = (val) => {
-                document.getElementById("inputtext").value += val;
-            }
             let result = () => {
                 document.getElementById("inputtext").value = eval(document.getElementById("inputtext").value);
             }
