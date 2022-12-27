@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import fire from "./config/fire";
 import "./login.css";
 
-// code optimized
+// added more code
 
 class Login extends Component {
   constructor(props) {
