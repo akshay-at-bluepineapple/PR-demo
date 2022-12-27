@@ -1,0 +1,34 @@
+.biljeskainput {
+  width: 400px;
+  height: 45px;
+  margin-top: 25px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px #b9bdbb;
+}
+
+.biljeskainput:focus {
+  border: 2px solid black;
+}
+
+.biljeskainput-btn {
+  margin-left: 10px;
+  width: 90px;
+  height: 40px;
+  background-color: #32a86f;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .biljeskainput {
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .biljeskainput-btn {
+    margin-top: 8px;
+  }
+}

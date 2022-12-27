@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.maindiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.unos-biljeske {
+  align-self: center;
+  margin-top: 100px;
+}
+
+.biljeska-div {
+  align-self: center;
+  margin-top: 30px;
+
+  margin-bottom: 90px;
+}
+
+.footer-div {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 570px) {
+  .unos-biljeske,
+  .biljeska-div {
+    width: 80%;
+  }
+}

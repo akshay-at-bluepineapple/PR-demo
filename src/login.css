@@ -1,0 +1,49 @@
+.login {
+  height: 100vh;
+  background-color: #32a86f;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  background: url("images/backgr6.png") 0 0 no-repeat fixed;
+  background-position-x: center;
+  background-size: contain;
+}
+
+.inp {
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 5px 5px grey;
+  border-radius: 5px;
+}
+
+.inp:focus {
+  border: 2px solid black;
+}
+
+.todo {
+  background-color: #32a86f;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.btn1 {
+  width: 95px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #aaa;
+}
+
+.todo h1 {
+  font-size: 46px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+@media only screen and (max-width: 480px) {
+  .login {
+    background-image: none;
+  }
+}
