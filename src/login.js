@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import fire from "./config/fire";
 import "./login.css";
 
-// code optimized
-
 class Login extends Component {
   constructor(props) {
     super(props);
