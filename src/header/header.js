@@ -7,10 +7,6 @@ class Header extends Component {
     this.state = {};
   }
 
-  logout() {
-    fire.auth().signOut();
-  }
-
   render() {
     return (
       <div className="header-div1">
