@@ -41,6 +41,10 @@ class Login extends Component {
     this.setState({ [e.target.name]: e.target.value });
   }
 
+  handleChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
+  }
+
   render() {
     return (
       <div className="todo">
