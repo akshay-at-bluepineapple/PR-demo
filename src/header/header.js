@@ -4,8 +4,6 @@ import fire from "../config/fire";
 
 class Header extends Component {
   constructor(props) {
-    super(props);
-    this.logout = this.logout.bind(this);
     this.state = {};
   }
 
