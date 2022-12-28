@@ -37,25 +37,10 @@ class Login extends Component {
       });
   }
 
-  signup(e) {
-    e.preventDefault();
-    fire
-      .auth()
-      .createUserWithEmailAndPassword(this.state.email, this.state.password)
-      .catch(error => {
-        console.log(error);
-      });
-  }
 
   handleChange(e) {
     this.setState({ [e.target.name]: e.target.value });
   }
-
-  handleChange(e) {
-    this.setState({ [e.target.name]: e.target.value });
-  }
-
-
 
   render() {
     return (
