@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import "./header.css";
 import fire from "../config/fire";
 
-class Header extends Component {
-  constructor(props) {
-    this.state = {};
-  }
+
 
   logout() {
     fire.auth().signOut();
